@@ -22,7 +22,7 @@ end
  
  def printer
   assign_rooms.each do |attendee|
-    puts
+    puts attendee
   print
  end
  
