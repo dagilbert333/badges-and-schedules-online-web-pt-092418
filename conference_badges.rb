@@ -19,13 +19,8 @@ def assign_rooms(attendees)
  end
  return room_assignments
 end
-
-def printer(attendees)
-  counter = 1 
-  attendees.each do |attendee|
-    puts attendee
-    puts 
-    counter += 1
-  end
-  assign_room
-end
+ 
+ def printer
+ 
+ end
+ 
