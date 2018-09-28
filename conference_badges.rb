@@ -20,8 +20,7 @@ def assign_rooms(attendees)
  return room_assignments
 end
  
- def printer(attendees, names)
-   puts batch_badge_creator(names)
-   puts assign_rooms(attendees)
+ def printer()
+  
  end
  
