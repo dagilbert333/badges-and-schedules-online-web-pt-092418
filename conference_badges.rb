@@ -27,7 +27,7 @@ end
    assign_rooms.each do |room_assignments|
      puts room_assignments
    end
-   batch_badge_creator
-   assign_rooms
+   return batch_badge_creator
+   return assign_rooms
  end
  
